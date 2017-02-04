@@ -73,4 +73,4 @@ df_MeanSdMelted <-melt(df_MeanSd,id=c("Subject","Activity"));
 #Average data for each subject, activity
 df_MeanSdMelted <- cast(df_MeanSdMelted,Subject+Activity~variable,mean);
 #Write tidy data frame
-write.table(df_MeanSdMelted,file="tidyData.txt");
+write.table(df_MeanSdMelted,file="tidyData.txt",row.names=FALSE);
