@@ -10,6 +10,7 @@ name and tidy the datasets in test/ and train/.
 **To view tidy results in R:**
 
 tidyData <- read.table("tidyData.txt")
+
 View(tidyData)
 
 
